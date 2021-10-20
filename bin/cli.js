@@ -22,7 +22,7 @@ program.command('config [value]')
 
 program.on('--help', () => {
   console.log('\r\n' + figlet.textSync('React Skeleton'));
-  console.log(`\r\nRun ${chalk.cyan(`rts-cli <command> --help`)} for detailed usage of given command.\r\n`);
+  console.log(`\r\nRun ${chalk.cyan(`rtrs <command> --help`)} for detailed usage of given command.\r\n`);
 });
 
 program.version(`v${require('../package.json').version}`)

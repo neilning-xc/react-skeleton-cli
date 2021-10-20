@@ -1,5 +1,5 @@
 {
-  "name": "rts-cli",
+  "name": "rtrs",
   "version": "1.0.2",
   "description": "Generate a react project skeleton",
   "main": "bin/cli.js",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/neilning-xc/react-skeleton-cli"
   },
   "author": {
-    "name": "NeilNing",
+    "name": "neilning",
     "email": "ningcoder@foxmail.com"
   },
   "license": "ISC",
