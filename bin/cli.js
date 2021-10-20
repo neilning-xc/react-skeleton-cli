@@ -8,7 +8,7 @@ program.command('create <app-name>')
   .description('Create a new project')
   .option('-f --force', 'Overwrite the existing dir')
   .action((name, options) => {
-    require('../libs/create')(name, options);
+    require('../lib/create')(name, options);
   });
 
 program.command('config [value]')
@@ -22,11 +22,10 @@ program.command('config [value]')
 
 program.on('--help', () => {
   console.log('\r\n' + figlet.textSync('React Skeleton'));
-  console.log(`\r\nRun ${chalk.cyan(`rs <command> --help`)} show details\r\n`);
+  console.log(`\r\nRun ${chalk.cyan(`rs <command> --help`)} for detailed usage of given command.\r\n`);
 });
 
 program.version(`v${require('../package.json').version}`)
   .usage('<command> [option]');
 
 program.parse(process.argv);
-
