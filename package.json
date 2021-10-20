@@ -11,7 +11,14 @@
   "keywords": [
     "react"
   ],
-  "author": "NeilNing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilning-xc/react-skeleton-cli"
+  },
+  "author": {
+    "name": "NeilNing",
+    "email": "ningcoder@foxmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^0.23.0",
