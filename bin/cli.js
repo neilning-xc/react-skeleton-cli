@@ -12,17 +12,17 @@ program.command('create <app-name>')
   });
 
 program.command('config [value]')
-  .description('inspect and modify the config')
-  .option('-g, --get <path>', 'get value from option')
+  .description('Inspect and modify the config')
+  .option('-g, --get <path>', 'Get value from option')
   .option('-s, --set <path> <value>')
-  .option('-d, --delete <path>', 'delete option from config')
+  .option('-d, --delete <path>', 'Delete option from config')
   .action((value, options) => {
     console.log(value, options)
   });
 
 program.on('--help', () => {
   console.log('\r\n' + figlet.textSync('React Skeleton'));
-  console.log(`\r\nRun ${chalk.cyan(`rs <command> --help`)} for detailed usage of given command.\r\n`);
+  console.log(`\r\nRun ${chalk.cyan(`rts-cli <command> --help`)} for detailed usage of given command.\r\n`);
 });
 
 program.version(`v${require('../package.json').version}`)

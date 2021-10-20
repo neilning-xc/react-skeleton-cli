@@ -1,15 +1,13 @@
 {
-  "name": "react-skeleton",
-  "version": "1.0.0",
+  "name": "rts-cli",
+  "version": "3.0.0-0",
   "description": "Generate a react project skeleton",
   "main": "bin/cli.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "rs": "./bin/cli.js"
-  },
+  "bin": "./bin/cli.js",
   "keywords": [
     "react"
   ],
