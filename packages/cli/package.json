@@ -1,6 +1,6 @@
 {
   "name": "rtrs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate a react project skeleton",
   "main": "bin/cli.js",
   "type": "commonjs",
