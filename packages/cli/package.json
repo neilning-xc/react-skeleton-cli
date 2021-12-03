@@ -19,7 +19,7 @@
     "name": "neilning",
     "email": "ningcoder@foxmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.23.0",
     "chalk": "^4.1.2",
